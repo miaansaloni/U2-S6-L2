@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Getaway Gurus</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <!--NAV BAR-->
+  <body>
+    <div class="container md">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Getaway Gurus</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#saldi">Saldi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#welcomeSummer">Welcome Summer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#lastMinute">Last Minute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Recensioni">Recensioni</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cerca posti da sogno" aria-label="Search" />
+              <button class="btn btn-outline-danger" type="submit">Cerca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--JUMBOTRON
+          <div bg-body-tertiary></div>
+          -->
+      <div class="jumbotron bg-body-tertiary rounded mt-5 p-5">
+        <h1 class="display-4">Getaway Gurus-</h1>
+        <p class="lead">Feel the freedom</p>
+        <hr class="my-4" />
+        <p>Scopri le destinazioni più calde del momento!</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Prenota ora</a>
+      </div>
+
+      <!--SEZIONE SALDI-->
+      <div class="row mt-4">
+        <div class="col-6" id="saldi"><h4>Saldi</h4></div>
+        <div class="col-6 d-flex flex-row-reverse">Nascondi sezione</div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3 col-xl-3 mt-3">
+          <div class="card border border-primary">
+            <div class="card-body">
+              <img
+                src="https://tourscanner.com/blog/wp-content/uploads/2023/04/Dubrovnik-Croatia.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <h5 class="card-title pt-1">Dubrovnik, Croatia</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 col-xl-3 mt-3">
+          <div class="card border border-primary">
+            <div class="card-body">
+              <img
+                src="https://tourscanner.com/blog/wp-content/uploads/2023/04/Porto-Portugal.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <h5 class="card-title pt-1">Porto, Portugal</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 col-xl-3 mt-3">
+          <div class="card border border-primary">
+            <div class="card-body">
+              <img
+                src="https://tourscanner.com/blog/wp-content/uploads/2023/04/Edinburgh-Scotland.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <h5 class="card-title pt-1">Edinburgh, Scotland</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 d-md-none d-lg-block col-lg-3 col-xl-3 mt-3">
+          <div class="card border border-primary">
+            <div class="card-body">
+              <img
+                src="https://tourscanner.com/blog/wp-content/uploads/2023/04/Paro-Valley-Bhutan.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <h5 class="card-title pt-1">Paro Valley, Bhutan</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--WELCOME SUMMER-->
+      <div class="row mt-4">
+        <div class="col-6" id="welcomeSummer"><h4>Welcome Summer!</h4></div>
+        <div class="col-6 d-flex flex-row-reverse">Nascondi sezione</div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 col-md-6 col-lg-4 col-xl-2">
+          <div class="card border-0 shadow p-3 mb-5 bg-white rounded">
+            <div class="card-body p-0">
+              <img
+                src="https://tourscanner.com/blog/wp-content/uploads/2023/04/Bali-Indonesia.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <h5 class="card-title pt-1">Bali, Indonesia</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 col-xl-2">
+          <div class="card border-0 shadow p-3 mb-5 bg-white rounded">
+            <div class="card-body p-0">
+              <img
+                src="https://tourscanner.com/blog/wp-content/uploads/2023/04/Marrakech-Morocco.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <h5 class="card-title pt-1">Marrakech, Morocco</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 col-xl-2">
+          <div class="card border-0 shadow p-3 mb-5 bg-white rounded">
+            <div class="card-body p-0">
+              <img
+                src="https://tourscanner.com/blog/wp-content/uploads/2023/04/Krakow-Poland.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <h5 class="card-title pt-1">Krakow, Poland</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 col-xl-2">
+          <div class="card border-0 shadow p-3 mb-5 bg-white rounded">
+            <div class="card-body p-0">
+              <img
+                src="https://tourscanner.com/blog/wp-content/uploads/2023/04/Boracay-Philippines.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <h5 class="card-title pt-1">Boracay, Philippines</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 col-xl-2">
+          <div class="card border-0 shadow p-3 mb-5 bg-white rounded">
+            <div class="card-body p-0">
+              <img
+                src="https://tourscanner.com/blog/wp-content/uploads/2023/04/Bora-Bora-French-Polynesia.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <h5 class="card-title pt-1">Bora Bora, French Polynesia</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 col-lg-4 col-xl-2">
+          <div class="card border-0 shadow p-3 mb-5 bg-white rounded">
+            <div class="card-body p-0">
+              <img
+                src="https://tourscanner.com/blog/wp-content/uploads/2023/04/Luang-Prabang-Laos.jpg"
+                alt=""
+                class="img-fluid"
+              />
+              <h5 class="card-title pt-1">Luang Prabang, Laos</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--OFFERTA DEL GIORNO-->
+      <div class="row mt-4 d-none d-lg-block">
+        <div class="col-12"><h4>Offerta del giorno</h4></div>
+      </div>
+
+      <div class="row">
+        <div class="d-none d-lg-block col-lg-9">
+          <img src="https://tourscanner.com/blog/wp-content/uploads/2023/04/Florence-Italy.jpg" class="img-fluid" />
+        </div>
+        <div class="d-none d-lg-block col-lg-3">
+          <h5>Florence, Italy</h5>
+          <p>20.05.2024 - 31.05.24</p>
+          <lead>B&B posizione centrale a partire da 70€/notte!</lead>
+          <span class="badge bg-dark rounded">Best offer</span>
+        </div>
+      </div>
+      <!--LAST MINUTE-->
+      <div class="row mt-4">
+        <div class="col-12" id="lastMinute"><h4>Last Minute</h4></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="" alt="" class="img-fluid" />
+        </div>
+      </div>
+      <!--RECENSIONI-->
+      <div class="row mt-4">
+        <div class="col-12" id="Recensioni"><h4 class="text-center">Dicono di noi</h4></div>
+      </div>
+      <!--FOOTER-->
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>
